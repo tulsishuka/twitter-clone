@@ -427,9 +427,11 @@ const App = () => {
                         </div>
                     </div>
 
-                    <div className="p3">
-                        <button className="bg-white text-black px-5 py-2 rounded-full font-bold">Follow</button>
-                    </div>
+                  <div className="p-3">
+  <button className="bg-white text-black px-5 py-2 rounded-full font-bold min-[1201px]:block hidden">
+    Follow
+  </button>
+</div>
 
                 </div>
                 <div className="item p-3 items-center gap-2 flex justify-between hover:bg-gray-800 cursor-pointer">
@@ -444,9 +446,17 @@ const App = () => {
                         </div>
                     </div>
 
-                    <div className="p3">
-                        <button className="bg-white text-black px-5 py-2 rounded-full font-bold">Follow</button>
-                    </div>
+                   
+         <div className="p-3">
+  <button className="bg-white text-black px-5 py-2 rounded-full font-bold min-[1201px]:block hidden">
+    Follow
+  </button>
+</div>
+
+
+
+
+
 
                 </div>
                 <div className="item p-3 items-center gap-2 flex justify-between hover:bg-gray-800 cursor-pointer">
@@ -461,9 +471,11 @@ const App = () => {
                         </div>
                     </div>
 
-                    <div className="p3">
-                        <button className="bg-white text-black px-5 py-2 rounded-full font-bold">Follow</button>
-                    </div>
+                    <div className="p-3">
+  <button className="bg-white text-black px-5 py-2 rounded-full font-bold min-[1201px]:block hidden">
+    Follow
+  </button>
+</div>
 
                 </div>
                 <div className="text-blue-600 px-3 cursor-pointer hover:underline my-5">Show More</div>
