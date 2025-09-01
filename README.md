@@ -40,5 +40,10 @@ cd twitter-clone
 # Install dependencies
 npm install
 
-## 📂 Project Structure
+👩‍💻 Author
 
+Tulsi Shukla
+
+GitHub: @Tulasishukla
+
+LinkedIn: LinkedIn Profile
