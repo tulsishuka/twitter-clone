@@ -1,5 +1,4 @@
 
-
 import React from 'react'
 
 const App = () => {
@@ -88,7 +87,8 @@ const App = () => {
                     <div
                         className="item p-3 items-center gap-5 justify-end mx-5 flex   hover:bg-gray-800 cursor-pointer rounded-full w-fit">
 
-                        <div className="p1"><img className="w-12 h-12 rounded-full object-cover"
+                        <div className="p1">
+                            <img className="w-12 h-12 rounded-full object-cover"
                                 src="https://static.vecteezy.com/system/resources/previews/025/852/513/original/beautiful-girl-holding-a-book-cute-smart-boy-loves-to-read-books-enjoy-literature-and-study-cartoon-illustration-of-kid-reading-isolated-on-white-background-free-vector.jpg"
                                 alt="vercel"/></div>
                         <div className="p2 ">
@@ -119,9 +119,9 @@ const App = () => {
             </div>
             <div className="h-[1px] w-full bg-gray-700"></div>
             <div className="whatishapp flex gap-4 my-3">
-                <div className="img m-2 w-16 rounded-full">
+                <div className="img m-2 ">
 
-                    <img className="rounded-full object-cover" src="https://static.vecteezy.com/system/resources/previews/025/852/513/original/beautiful-girl-holding-a-book-cute-smart-boy-loves-to-read-books-enjoy-literature-and-study-cartoon-illustration-of-kid-reading-isolated-on-white-background-free-vector.jpg" alt=""/>
+                    <img className="w-[17vw] md:w-[6vw] rounded-full object-cover hidden sm:block" src="https://static.vecteezy.com/system/resources/previews/025/852/513/original/beautiful-girl-holding-a-book-cute-smart-boy-loves-to-read-books-enjoy-literature-and-study-cartoon-illustration-of-kid-reading-isolated-on-white-background-free-vector.jpg" alt=""/>
                 </div>
                 <div className="w-full">
                     <input className="w-full h-7 my-2 text-xl bg-black outline-none text-white" type="text"
@@ -169,9 +169,15 @@ const App = () => {
             <div className="posts">
                 <div className="post border-[1px] border-y-gray-600 border-x-0  ">
                     <div className="flex">
-                        <div className="image m-4">
-                            <img className="w-[10vw] h-[10vh] rounded-full object-cover"
+                        {/* <div className="image m-4">
+                            <img className="w-14 h-10 rounded-full object-cover hidden md:block"
                                 src="https://img.freepik.com/premium-photo/american-woman_62972-2669.jpg" alt=""/>
+                        </div> */}
+                        <div className="image m-4">
+                            <img className="w-[7vw] md:w-[10vw] rounded-full object-cover hidden sm:block md:block"
+                                src="https://s.yimg.com/ny/api/res/1.2/E4WeGHaWPZYNTaw9P2y62g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTg2NTtjZj13ZWJw/https://media.zenfs.com/en/raleigh_news_and_observer_mcclatchy_712/3f59c7fdc0c403253de591a1d7c39677"
+                                alt="" />
+                                {/* w-[14vw] rounded-full object-cover hidden md:block */}
                         </div>
                         <div className="content my-3">
 
@@ -219,10 +225,16 @@ const App = () => {
 
                 <div className="post">
                     <div className="flex">
-                        <div className="image m-4 ">
-                            <img className="w-[18vw] h-[7vh] rounded-full object-cover"
+                        {/* <div className="image m-4 ">
+                            <img className="w-[18vw] h-[7vh] rounded-full object-cover hidden md:block"
                                 src="https://www.dateamericanwomen.com/blog/wp-content/uploads/2020/03/How-To-Meet-American-Women.jpg"
                                 alt=""/>
+                        </div> */}
+                        <div className="image m-4">
+                            <img className="w-[7vw] md:w-[29vw] rounded-full object-cover hidden sm:block"
+                                src="https://s.yimg.com/ny/api/res/1.2/E4WeGHaWPZYNTaw9P2y62g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTg2NTtjZj13ZWJw/https://media.zenfs.com/en/raleigh_news_and_observer_mcclatchy_712/3f59c7fdc0c403253de591a1d7c39677"
+                                alt="" />
+                                {/* w-[14vw] rounded-full object-cover hidden md:block */}
                         </div>
                         <div className="content my-3">
                             <span className="font-bold hover:underline cursor-pointer text-white">Madeleine</span> <span
@@ -265,10 +277,16 @@ const App = () => {
                 </div>
                 <div className="post">
                     <div className="flex">
-                        <div className="image m-4">
-                            <img className="w-[6vw] h-[8vh] rounded-full object-cover"
+                        {/* <div className="image m-4">
+                            <img className="w-[7vw] md:w-[20vw] rounded-full object-cover hidden sm:block"
                                 src="https://m.media-amazon.com/images/M/MV5BY2U5NDQ4ZDctM2FlYS00N2EyLTljNjEtNDgzZTdhM2JhNDVjXkEyXkFqcGdeQXRyYW5zY29kZS13b3JrZmxvdw@@._V1_FMjpg_UX1000_.jpg"
                                 alt=""/>
+                        </div> */}
+                        <div className="image m-4">
+                            <img className="w-[7vw] md:w-[7vw] rounded-full object-cover hidden sm:block"
+                                src="https://s.yimg.com/ny/api/res/1.2/E4WeGHaWPZYNTaw9P2y62g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTg2NTtjZj13ZWJw/https://media.zenfs.com/en/raleigh_news_and_observer_mcclatchy_712/3f59c7fdc0c403253de591a1d7c39677"
+                                alt="" />
+                                {/* w-[14vw] rounded-full object-cover hidden md:block */}
                         </div>
                         <div className="content my-3">
                             <span className="font-bold hover:underline cursor-pointer text-white"> non aesthetic
@@ -313,9 +331,10 @@ const App = () => {
                 <div className="post">
                     <div className="flex">
                         <div className="image m-4">
-                            <img className="w-[14vw] rounded-full object-cover"
+                            <img className="w-[7vw] md:w-[20vw] rounded-full object-cover hidden sm:block"
                                 src="https://s.yimg.com/ny/api/res/1.2/E4WeGHaWPZYNTaw9P2y62g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTg2NTtjZj13ZWJw/https://media.zenfs.com/en/raleigh_news_and_observer_mcclatchy_712/3f59c7fdc0c403253de591a1d7c39677"
                                 alt="" />
+                                {/* w-[14vw] rounded-full object-cover hidden md:block */}
                         </div>
                         <div className="content my-3">
                             <span className="font-bold hover:underline cursor-pointer text-white"> non aesthetic
