@@ -1,12 +1,44 @@
-# React + Vite
+# 🐦 Twitter Clone (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **frontend-only Twitter Clone** built with **React.js** and styled using **Tailwind CSS**.  
+This project replicates the **UI and core user experience** of Twitter, including timeline, profile, and tweet interactions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎨 Modern **Twitter-like UI**  
+- 📱 Fully **responsive design**  
+- 📝 Post tweets (UI only, no backend)  
+- ❤️ Like button interactions (UI state only)  
+- 👤 Profile page design  
+- 🔍 Navigation between Home, Explore, and Profile  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**  
+- **Tailwind CSS**  
+- React Router (if used for navigation)  
+
+---
+
+---
+
+## ⚙️ Installation
+
+Clone the repo and install dependencies:
+
+```bash
+# Clone the repository
+git clone https://github.com/tulsishuka/twitter-clone.git
+
+# Go into the project folder
+cd twitter-clone
+
+# Install dependencies
+npm install
+
+## 📂 Project Structure
+
